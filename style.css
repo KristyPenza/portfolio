@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Krub', sans-serif;
+  font-size: 1.5rem;
+  }
+
+header {
+  min-height: 100vh;
+  background-color: #b3b3ff;
+  }
+
+nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  }
+
+nav li {
+  display: inline-block;
+  padding: 1.5rem;
+  }
+
+nav ul {
+  margin: 0;
+}
+
+header main {
+  text-align: center;
+  padding-top: 5rem;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    color: rgb(51,48,45);
+  }
+
+.about-me {
+background-color: rgb(51,48,45);
+color: white;
+line-height: 2;
+padding: 3rem 0;
+}
+
+.content {
+width: 70%;
+margin: 0 auto;
+}
+
+.projects {
+  background-color: #b3b3ff;
+  padding: 3rem 0;
+}
+
+.projects img {
+  width: 30%;
+}
